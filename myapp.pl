@@ -12,6 +12,7 @@ __DATA__
 % layout 'default';
 % title 'Welcome';
 <h1>Welcome to the Mojolicious real-time web framework!</h1>
+%= javascript 'app.js'
 
 @@ layouts/default.html.ep
 <!DOCTYPE html>
